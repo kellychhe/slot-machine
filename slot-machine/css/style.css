@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 20%; */
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html{
+  background: url(../img/atla.webp) no-repeat;
+  background-size: cover;
+}
+h1, h2, div, button, p{
+  font-family: 'Cinzel', 'Helvetica', sans-serif;
+  align-self: center;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 2px #000000;
+}
+img{
+  background-color: rgba(63,62,54,.9);
+  padding: 20px;
+  margin-top: 30px;
+}
+img:first-of-type{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+img:last-of-type{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+p{
+  font-size: 25px;
+}
+button{
+  background-color: rgba(199,122,148,0.9);
+  border-radius: 30px;
+  font-size: 20px;
+}
+h1{
+  letter-spacing: 3px;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 30px;
+}
