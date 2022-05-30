@@ -1,24 +1,15 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Avatar the Last Air Bender Slot Machine
 
-### Goal: Build a Simple Slot Machine
+<a href="https://kellychhe-slot-machine.netlify.app/">This is a slot machine web application</a>. The user initially starts with 1000 credits and can choose to bet 1 or 50 credits to see if they win! The user will win if three ATLA symbols match and they will gain 10 times the betting amount. When the user attempts to cash out on the credits, the web app randomly generates different responses.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+<img width="1438" alt="Screen Shot 2022-05-30 at 12 25 32 PM" src="https://user-images.githubusercontent.com/102538779/171031681-7f00f3c4-603c-4005-9b14-a42742487374.png">
 
-### How to submit your code for review:
+## Languages Used 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This was created using HTML5, CSS3, and JavaScript. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+For this project I added event listeners to all the buttons in my HTML and used JS to track the bets made and credits remaining. To generate the symbols, I dynamically added three images to the DOM. I randomized them using Math.random() and if/else statements. I checked who won by pushing the randomized names of the symbols into an array. Then, I wrote a function that returns a winning response if index 0 matches index 1 and index 2 and a losing response if it doesn't. When someone wins, I multiplied the winning bet by 10 and added it back to the remaining credits. When the user loses, they get nothing back. When the user bets and spins again, I reset the array to empty and dynamically remove the images from the previous spin. I wanted to use Math.random() again to fully understand the concept so I added a feature that generates funny responses when the user tries to cash out. 
+
+## Lessons Learned 
+
+One of the biggest challenges was understanding what a slot machine does. Trying to figure out what betting one vs betting max means made it difficult to get started on the JS. This project was so exciting for me because it was one of the first times I used arrays/array methods in a project! I also got to learn about combining Math.random() and if/else to randomize elements. In terms of CSS I got to learn about text-shadow and got to play with different colors to make content more readable.
