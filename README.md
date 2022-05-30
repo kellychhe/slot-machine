@@ -1,6 +1,6 @@
 # Avatar the Last Air Bender Slot Machine
 
-<a href="https://kellychhe-slot-machine.netlify.app/">This is a slot machine web application</a>. The user initially starts with 1000 credits and can choose to bet 1 or 50 credits to see if they win! The user will win if three ATLA symbols match and they will gain 10 times the betting amount. When the user attempts to cash out on the credits, the web app randomly generates different responses.
+<a href="https://kellychhe-slot-machine.netlify.app/">This is a slot machine website</a>. The user initially starts with 1000 credits and can choose to bet 1 or 50 credits to see if they win! The user will win if three ATLA symbols match and they will gain 10 times the betting amount. When the user attempts to cash out on the credits, the web app randomly generates different responses.
 
 <img width="1438" alt="Screen Shot 2022-05-30 at 12 25 32 PM" src="https://user-images.githubusercontent.com/102538779/171031681-7f00f3c4-603c-4005-9b14-a42742487374.png">
 
